@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page Not Found | India's Freedom Struggle</title>
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    body, html {
+      height: 100%;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+    }
+    .error-code {
+      font-size: 6rem;
+      font-weight: 700;
+      color: var(--color-primary);
+      margin-bottom: 0.5rem;
+    }
+    .error-message {
+      font-size: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+    .home-button {
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="error-code">404</div>
+  <div class="error-message">Page Not Found</div>
+  <div class="home-button">
+    <a href="index.html" class="button">Back to Home</a>
+  </div>
+
+  <!-- Audio element for button clicks -->
+  <audio id="click-sound" preload="auto" style="display: none;">
+    <source src="audio/keypress.mp3" type="audio/mpeg">
+  </audio>
+
+  <!-- Background music audio element -->
+  <audio id="background-music" loop preload="auto" style="display: none;">
+    <source src="audio/vande-mataram.mp3" type="audio/mpeg">
+  </audio>
+  
+  <script src="js/script.js"></script>
+
+  <div class="footer-content">
+    <p class="copyright">Submission for Swirl YSWS</p>
+    <div class="footer-links">
+      <a href="mailto:test.johndoe@gmail.com">Email</a>
+      <a href="https://github.com/n4mi1/freedom-struggle" target="_blank">GitHub</a>
+    </div>
+  </div>
+</body>
+</html> 

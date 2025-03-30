@@ -27,9 +27,3 @@ An interactive educational website chronicling India's journey to independence f
 10. HTML Button
 11. CSS :hover pseudo-class
 12. HTML Audio
-
-## Repository
-
-This project is a submission for Swirl YSWS.
-
-GitHub Repository: [https://github.com/n4mi1/freedom-struggle](https://github.com/n4mi1/freedom-struggle) 
